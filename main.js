@@ -1,1 +1,1 @@
-console.log("all working!");
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{!function(){let e=document.querySelector("#content"),t=function(){let e=document.createElement("div");e.className="home-page";let t=document.createElement("h1");t.innerText="RestoFine";let n=document.createElement("p");return n.innerText="The very best restaurant in the world. Dining so fine, you will need a microscope to look at it",e.append(t),e.append(n),e}();e.append(t)}()}))})();
