@@ -8,6 +8,8 @@ function createHomePage () {
     let info = document.createElement('p');
     info.innerText = 'The very best restaurant in the world. Dining so fine, you will need a microscope to look at it';
 
+    // let image = './images/restaurant.jpg';
+
     container.append(title);
     container.append(info);
 
