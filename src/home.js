@@ -1,3 +1,5 @@
+import Restaurant from './images/restaurant.jpg';
+
 function createHomePage () {
     let container = document.createElement('div');
     container.className = 'home-page';
@@ -8,13 +10,12 @@ function createHomePage () {
     let info = document.createElement('p');
     info.innerText = 'The very best restaurant in the world. Dining so fine, you will need a microscope to look at it';
 
-    let image_path = './images/restaurant.jpg';
-    let image = document.createElement('img');
-    image.src = image_path;
+    const image = new Image();
+    image.src = Restaurant;
 
-    container.append(title);
-    container.append(info);
-    container.append(image);
+    container.appendChild(title);
+    container.appendChild(info);
+    container.appendChild(image);
 
     return container;
 }
