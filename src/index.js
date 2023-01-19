@@ -13,7 +13,11 @@ function main() {
     let contactPage = createContactPage();
 
     let menuPage = document.createElement('div');
+    menuPage.id = 'menu-page';
+    menuPage.className = 'page';
+
     let menuHeading = document.createElement('h2');
+    menuHeading.className = 'page-heading';
     menuHeading.innerText = 'Menu';
 
     let item1 = createMenuItem('Dish 1', '199', dish1);
