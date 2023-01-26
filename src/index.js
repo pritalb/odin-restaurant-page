@@ -1,6 +1,7 @@
 import createHomePage from "./home";
 import createMenuItem from "./menu";
 import createContactPage from "./contact";
+import { toggleTabs, createNavBar } from "./nav";
 
 import dish1 from "./images/dish1.jpg";
 import dish2 from "./images/dish2.jpg";
@@ -9,6 +10,7 @@ import dish4 from "./images/dish4.jpg";
 
 function main() {
     let content = document.querySelector('#content');
+    let nav = createNavBar();
     let homePage = createHomePage();
     let contactPage = createContactPage();
 
@@ -32,10 +34,12 @@ function main() {
     menuPage.appendChild(item4);
 
     
+    content.appendChild(nav);
     content.appendChild(homePage);
     content.appendChild(menuPage);
     content.appendChild(contactPage);
 }
 document.addEventListener('DOMContentLoaded', () => {
     main();
+    toggleTabs('home-page');
 })
