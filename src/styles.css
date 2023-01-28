@@ -73,3 +73,13 @@ body {
 #home-page {
     color: white;
 }
+
+.contact-page-item {
+    font-size: 48px;
+    padding-left: 80px;
+    margin-bottom: 16px;
+}
+
+.contact-page-heading {
+    margin-bottom: 100px;
+}

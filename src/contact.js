@@ -4,7 +4,7 @@ function createContactPage() {
     container.className = 'page';
 
     let heading = document.createElement('h2');
-    heading.className = 'page-heading';
+    heading.className = 'page-heading contact-page-heading';
     heading.innerText = 'Contact us';
 
     let phone = document.createElement('div');

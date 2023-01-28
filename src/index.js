@@ -42,5 +42,5 @@ function main() {
 }
 document.addEventListener('DOMContentLoaded', () => {
     main();
-    toggleTabs('home-page');
+    toggleTabs('contact-page');
 })

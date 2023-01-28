@@ -6,7 +6,7 @@ function createHomePage () {
     container.className = 'page';
     
     let title = document.createElement('div');
-    title.className = 'page-heading home-page-heading';
+    title.className = 'home-page-heading';
     title.innerText = 'RestoFine';
 
     let info = document.createElement('div');
