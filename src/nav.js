@@ -10,7 +10,7 @@ function createNavBar () {
     nav.id = 'nav-bar';
     nav.className = 'nav';
 
-    let title = document.createElement('h2');
+    let title = document.createElement('div');
     title.innerText = 'RestoFine';
     title.className = 'nav-bar-title';
 

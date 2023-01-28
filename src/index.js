@@ -2,6 +2,7 @@ import createHomePage from "./home";
 import createMenuItem from "./menu";
 import createContactPage from "./contact";
 import { toggleTabs, createNavBar } from "./nav";
+import './styles.css';
 
 import dish1 from "./images/dish1.jpg";
 import dish2 from "./images/dish2.jpg";
