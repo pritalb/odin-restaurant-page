@@ -2,7 +2,7 @@ function toggleTabs(tabID) {
     document.querySelectorAll('.page').forEach(page => {
         page.style.display = 'none';
     });
-    document.querySelector(`#${tabID}`).style.display = 'block';
+    document.querySelector(`#${tabID}`).style.display = 'flex';
 }
 
 function createNavBar () {
