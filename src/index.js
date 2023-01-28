@@ -23,10 +23,10 @@ function main() {
     menuHeading.className = 'page-heading';
     menuHeading.innerText = 'Menu';
 
-    let item1 = createMenuItem('Dish 1', '199', dish1);
-    let item2 = createMenuItem('Dish 2', '100', dish2);
-    let item3 = createMenuItem('Dish 3', '149', dish3);
-    let item4 = createMenuItem('Dish 4', '179', dish4);
+    let item1 = createMenuItem('Dish 1', '199', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", dish1);
+    let item2 = createMenuItem('Dish 2', '100', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", dish2);
+    let item3 = createMenuItem('Dish 3', '149', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", dish3);
+    let item4 = createMenuItem('Dish 4', '179', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.", dish4);
 
     menuPage.appendChild(menuHeading);
     menuPage.appendChild(item1);
@@ -42,5 +42,5 @@ function main() {
 }
 document.addEventListener('DOMContentLoaded', () => {
     main();
-    toggleTabs('contact-page');
+    toggleTabs('home-page');
 })
